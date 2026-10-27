@@ -19,7 +19,7 @@ jobs:
       CDN_BUCKET_DESTINATION: addons/hs-b787-cockpit-texture/release
     steps:
       - name: Maximize build space
-        uses: AdityaGarg8/remove-unwanted-software@v4.1
+        uses: AdityaGarg8/remove-unwanted-software@v5
         with:
           remove-android: 'true'
           remove-dotnet: 'true'
